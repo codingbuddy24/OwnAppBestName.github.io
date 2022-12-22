@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&family=Raleway:wght@200&display=swap');
+
+.sec{
+    padding: 70px 0 70px 0;
+}
+.sec h2.section-head{
+    color:#040615;
+    text-align:center;
+    margin-bottom: 40px;
+}
+.sec h2.section-head:after{
+    background-color: #065da8;
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+a:hover{
+    text-decoration: none;
+}
+.droplist div a{
+    background-color: #065da8;
+}
+#header{
+    color: #fff;
+    background-color: #1B65A7;
+}
+.logo{
+    font-size: 2rem;
+    margin-top: 5px;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Edu QLD Beginner', cursive;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: #ffff;
+    padding: 15px 10px;
+    display: block;
+    
+}
+#menu li a:hover{
+    background-color: #065da8;
+}
+.banner{
+    background:url('../images/bg1.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+.Banner-title{
+    padding-top: 5rem;
+}
+.Banner-title h1{
+    background: rgba(255,255,255,0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.Banner-title p.lead{
+    color: #fff;
+    background-color: rgba(29, 101, 167,0.7);
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    color: #1B65A7;
+    font-size: 70px;
+    margin-bottom: 1rem;
+}
+#testimonials{
+    color: #ffff;
+    background: url("../images/section-2.jpg") no-repeat 0 0 ; 
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+#testimonials:before{
+    background-color: rgba(6, 62, 112,0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial img{
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+}
+
+.news-post img{
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 10px;
+}
+.news-post h3{
+    font-size: 1.35rem;
+}
+
+.news-post h3 a{
+    color: #1B65A7;
+}
+/* .post-date:before{
+    content: "\f073";
+    color: #065da8;
+    font-family: FontAwsome;
+    padding-right: 5px;
+} */
+
+.post-date{
+
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+a.readmore{
+    font-size: 14px;
+}
+a.readmore::after{
+    content: "\f101";
+    font-family: FontAwsome;
+    padding-left: 5px;
+    color: #1B65A7;
+}
+#Footer-sidebar{
+    color:#ffff;
+    background-color: #065da8;
+    padding: 20px 0;
+}
+.footer-widget h4:after{
+    content: "";
+    background: #fff;
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 5px 0;
+}
+.footer-widget a{
+    color: #fff;
+}
+.latest-News{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* .latest-News li{
+    margin-bottom: 3px;
+} */
+/* .latest-News li:before{
+    content: "\f101";
+    font-family: FontAwsome;
+    padding-right:5px ;
+} */
+.latest-News li  i{
+    color: #fff;
+    font-size: 1em;
+    margin-right: 0.3rem;
+}
+#footer{
+    color: #fff;
+    background: #1B65A7;
+    pad: 10px 0;
+}
+#Social-icon{
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+#Social-icon li{
+    display: inline-block;
+    padding-left: 5px;
+}
+#Social-icon li a{
+    color: #fff;
+    font-size: 1.4rem;
+
+}
+@media (max-width:992px){
+    .news-post{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:768px) {
+    .sec{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .logo{
+        text-align: center;
+        margin: 10px 0 5px 0;
+    }
+    #menu{
+        text-align: center;
+    }
+    .Banner-title{
+        padding-top: 0;
+    }
+    .Banner-title h1{
+        font-size: 1.7rem;
+    }
+    .testimonial{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .service-box{
+        margin-bottom: 30px;
+    }
+    .news-post{
+        margin-bottom: 30px;
+    }
+    .news-post img{
+        height: 400px;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+    #footer{
+        text-align: center;
+    }
+    #social-icons{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,66 @@
+.img-sit-laungh{
+    height: 100%;
+    width: 100%;
+    padding: 10px 40px;
+}
+.mainhead{
+
+}
+.mainhead:after{
+    content: "";
+    background: #1B65A7;
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 5px 0;    
+}
+.logSign{
+    padding: 6rem 3rem;
+
+}
+.col-md-12 label{
+    margin: 0.1rem 3rem;
+    
+}
+.col-md-12 input{
+    margin: 0.1rem 3rem;
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
+}
+.col-md-12 span{
+    margin: 0.1rem 5rem;    
+    
+}
+.spanDisplay{
+    display: none;
+}
+.spanError{
+    color: red;
+    display: inline;
+}
+.spanSuccess{
+    color: greenyellow;
+    display: inline;
+}
+
+.forgetpas{
+    margin: 0rem 1rem 0rem 10rem;
+}
+.sbubtn{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding:0.5rem  1rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    margin: 0.5rem 5rem 0.5rem 7rem;
+}
+.signques{
+    margin: 1rem 1rem 0rem 7rem;
+}
+@media (max-width:768px){
+    .img-sit-laungh{
+      display: none;
+    }
+}
